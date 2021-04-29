@@ -11,7 +11,7 @@ Will disable and stop services installed by Forge on provisioning but leave ngin
 
 Executes: [system-stop-and-disable-services-on-boot.sh](system-stop-and-disable-services-on-boot.sh)
 ```bash
-curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/master/system-stop-and-disable-services-on-boot.sh" | sh
+curl -sS "https://raw.githubusercontent.com/JuanDMeGon/laravel-forge-recipes/master/system-stop-and-disable-services-on-boot.sh" | sh
 ```
 
 &nbsp;
@@ -23,7 +23,7 @@ If cloudflare updates their ip address, all that needs to be done is run this co
 
 Executes: [nginx-set-real-visitor-ip-from-cloudflare-enable.php](nginx-set-real-visitor-ip-from-cloudflare-enable.php)
 ```bash
-curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/master/nginx-set-real-visitor-ip-from-cloudflare-enable.php" | php
+curl -sS "https://raw.githubusercontent.com/JuanDMeGon/laravel-forge-recipes/master/nginx-set-real-visitor-ip-from-cloudflare-enable.php" | php
 ```
 
 &nbsp;
@@ -33,7 +33,7 @@ Removes ```/etc/nginx/conf.d/cloudflare-set-real-ip.conf``` and restarts nginx
 
 Executes: [nginx-set-real-visitor-ip-from-cloudflare-disable.sh](nginx-set-real-visitor-ip-from-cloudflare-disable.sh)
 ```bash
-curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/master/nginx-set-real-visitor-ip-from-cloudflare-disable.sh" | sh
+curl -sS "https://raw.githubusercontent.com/JuanDMeGon/laravel-forge-recipes/master/nginx-set-real-visitor-ip-from-cloudflare-disable.sh" | sh
 ```
 
 &nbsp;
@@ -43,5 +43,5 @@ Will install packages mostly used by php apps and with some other custom package
 
 Executes: [system-install-php-essentials.sh](system-install-php-essentials.sh)
 ```bash
-curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/master/system-install-php-essentials.sh" | sh
+curl -sS "https://raw.githubusercontent.com/JuanDMeGon/laravel-forge-recipes/master/system-install-php-essentials.sh" | sh
 ```
